@@ -1,0 +1,21 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "A simple To-Do List REST API built with Node.js, Express, MongoDB, and Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["todo", "api", "express", "mongodb", "mongoose"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
